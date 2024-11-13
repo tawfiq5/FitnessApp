@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/bg"
+    android:gravity="center">
+
+    <!-- Login Title Text -->
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Login"
+android:textSize="32sp"
+android:textColor="#A138B3"
+    android:textStyle="bold"
+    android:layout_marginBottom="40dp"
+    android:gravity="center"/>
+
+    <!-- Email Input Field -->
+<EditText
+android:id="@+id/etEmail"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Email"
+android:inputType="textEmailAddress"
+android:textColor="#333"
+android:textColorHint="#999"
+android:background="@drawable/edit_text_bg"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:textSize="16sp"
+android:layout_gravity="center"/>
+
+    <!-- Password Input Field -->
+<EditText
+android:id="@+id/etPassword"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Password"
+android:inputType="textPassword"
+android:textColor="#333"
+android:textColorHint="#999"
+android:background="@drawable/edit_text_bg"
+android:padding="16dp"
+android:layout_marginBottom="24dp"
+android:textSize="16sp"
+android:layout_gravity="center"/>
+
+    <!-- Login Button -->
+<Button
+android:id="@+id/btnLogin"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Login"
+android:textColor="#ffffff"
+android:textSize="18sp"
+android:background="@color/colorPrimary"
+android:layout_marginBottom="16dp"
+android:padding="16dp"/>
+
+
+<TextView
+android:id="@+id/tvSignUp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Don't have an account? Sign Up"
+android:textColor="@android:color/holo_blue_light"
+android:textSize="16sp"
+android:layout_marginTop="16dp"
+android:gravity="center"/>
+
+    </LinearLayout>
+

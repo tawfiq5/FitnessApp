@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/bg"
+    android:gravity="center">
+
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Sign Up"
+android:textSize="32sp"
+android:textColor="#A138B3"
+    android:layout_marginBottom="40dp"
+    android:gravity="center"/>
+
+
+<EditText
+android:id="@+id/etUsername"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Username"
+android:inputType="text"
+android:textColor="#333"
+android:textColorHint="#999"
+android:background="@drawable/edit_text_bg"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:textSize="16sp"
+android:layout_gravity="center"/>
+
+
+<EditText
+android:id="@+id/etEmail"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Email"
+android:inputType="textEmailAddress"
+android:textColor="#333"
+android:textColorHint="#999"
+android:background="@drawable/edit_text_bg"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:textSize="16sp"
+android:layout_gravity="center"/>
+
+
+<EditText
+android:id="@+id/etPassword"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Password"
+android:inputType="textPassword"
+android:textColor="#333"
+android:textColorHint="#999"
+android:background="@drawable/edit_text_bg"
+android:padding="16dp"
+android:layout_marginBottom="16dp"
+android:textSize="16sp"
+android:layout_gravity="center"/>
+
+
+<EditText
+android:id="@+id/etRePassword"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Confirm Password"
+android:inputType="textPassword"
+android:textColor="#333"
+android:textColorHint="#999"
+android:background="@drawable/edit_text_bg"
+android:padding="16dp"
+android:layout_marginBottom="32dp"
+android:textSize="16sp"
+android:layout_gravity="center"/>
+
+<Button
+android:id="@+id/btnSignUp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Sign Up"
+android:textColor="#ffffff"
+android:textSize="18sp"
+android:background="@color/colorPrimary"
+android:layout_marginBottom="16dp"
+android:padding="16dp"/>
+
+    </LinearLayout>
